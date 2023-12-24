@@ -1,0 +1,123 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+}
+
+.heading {
+  font-size: 40px;
+  color: #1e293b;
+}
+
+.flex-resizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.elapsed-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.countdown {
+  color: #00f1b5;
+}
+.timer-status {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.start-reset-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.button {
+  height: 40px;
+  width: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0;
+}
+
+.image {
+  height: 30px;
+}
+
+.start-and-pause-button-text {
+  color: #1e293b;
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.para {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.set-timelimit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.set-timelimit-inner-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.set-timelimit-button {
+  background-color: transparent;
+  border-width: 0;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.timeLimitPara {
+  background-image: linear-gradient(to right, #6dec3f, #cffcf1);
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
